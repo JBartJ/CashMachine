@@ -5,7 +5,6 @@ class BankAccount:
         self.balance = balance
 
     def deposit(self, cashAmount):
-        "Valid the cash"
 
         self.balance += cashAmount
 
